@@ -2,7 +2,7 @@ node {
     stage('Prepare') {
     // some block
     deleteDir()
-    git 'https://github.com/shaikkhajaibrahim/spring-petclinic.git'
+    git 'https://github.com/prasanthbangs2016/spring-petclinic.git'
     }
     
     stage('Build'){
