@@ -7,7 +7,7 @@ pipeline{
 
         stage('Pull Repo'){
             steps {
-                git 'https://github.com/asquarezone/spring-petclinic.git'
+                git 'https://github.com/prasanthbangs2016/spring-petclinic.git'
                 
             }
         }
